@@ -1,5 +1,8 @@
 .friendMessage {
-
+    display: flex;
+    background-color: lawngreen;
+    width: 350px;
+    height: 100px;
 }
 
 .friendImageAndText {
@@ -7,14 +10,32 @@
 }
 
 .friendImageAndText img {
-
+    align-items: flex-end;
+    width: 60px;
+    border-radius: 50px;
+    margin: 30px 0 0 12px;
 }
 
 .friendText {
-
+    display: flex;
+    justify-content: flex-start;
+    background-color: #112d0e;
+    width: 570px;
+    border-radius: 10px 10px 10px 0;
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 20px;
+    position: relative;
 }
 
 .friendText:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(40px at top left, transparent 50%, rgba(17, 45, 14, 100) 0) no-repeat right bottom;
 
 }
 

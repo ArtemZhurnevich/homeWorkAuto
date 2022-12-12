@@ -17,7 +17,8 @@
 }
 
 .secondary {
-    color: #0066CC;
+    color: #eff1ed;
+    background-color: #0080FF;
 }
 
 .default {
@@ -26,12 +27,12 @@
 }
 
 .red {
-    background: #FF1A47;
+    background: #7a4715;
     color: #FFFFFF;
 }
 
 .default:hover {
-    background: #0080FF;
+    background: #dd00ff;
 }
 
 .red:hover {
